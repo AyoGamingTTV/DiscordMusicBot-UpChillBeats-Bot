@@ -1,22 +1,25 @@
 {
-  "name": "Music-Bot-Template-Aoi-JS",
-  "version": "0.1.0",
-  "description": "A Discord Music Bot",
+  "name": "a",
+  "version": "0.0.0",
+  "description": "none",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "Seen Development |https://seendevelopment.cf/ ",
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.6.0",
-    "aoi.js": "^4.5.0",
-    "express": "^4.17.3",
-    "ffmpeg-static": "^4.4.0",
+    "@akarui/aoi.music": "github:akaruidevelopment/music#main",
+    "@discordjs/opus": "^0.8.0",
+    "aoi.js": "^5.5.5",
+    "ffmpeg-static": "^5.0.2",
     "node-opus": "^0.3.3",
-    "opusscript": "0.0.8",
-    "tweetnacl": "^1.0.3",
-    "ytdl-core": "^4.9.1"
+    "opusscript": "^0.0.8"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0"
   }
 }

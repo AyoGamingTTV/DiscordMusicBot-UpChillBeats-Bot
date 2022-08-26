@@ -1,1 +1,0 @@
-const thedarkside = require("express")();thedarkside.get('/', (req, res) =>{res.send("");});thedarkside.listen(8080);
